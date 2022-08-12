@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space-News</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="posts-counter-wrapper">
+      <div>
+        <div>
+          <span>Posts count</span>
+          <span id="posts-fetched" class="posts-fetched">0</span>
+          <span>/</span>
+          <span id="posts-count" class="posts-count">0</span>
+        </div>
+        <div class="header-action">
+          <input type="text" id="input-posts-count" class="input-posts-count">
+          <button type="button" id="button-posts-count" class="button-posts-count button">
+            Get more articles
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="container">
+      <div class="header">
+        <nav class="header-nav">
+          <a href="/">
+            <h1>Space News</h1>
+          </a>
+          <a href="/library.html">
+            <h1>Library</h1>
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div id="blog-posts-wrapper" class="container"></div>
+    <div class="loading">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

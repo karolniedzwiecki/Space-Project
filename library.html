@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library | Space-News</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <div class="container" id="container">
+    <div class="posts-counter-wrapper">
+      <div>
+        <!-- &#8679; ascending | &#8681; descending -->
+        <button type="button" id="button-sort-date-ascending" class="show-button">Sort date &#8679;</button>
+        <button type="button" id="button-sort-date-descending" class="hide-button">Sort date  &#8681;</button>
+        <button type="button" id="button-sort-title-ascending" class="show-button">Sort title &#8679;</button>
+        <button type="button" id="button-sort-title-descending" class="hide-button">Sort title  &#8681;</button>
+      </div>
+    </div>
+      <div class="header">
+        <nav class="header-nav">
+          <a href="/">
+            <h1>Blog post</h1>
+          </a>
+          <a href="/library.html">
+            <h1>Library</h1>
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div id="blog-posts-wrapper" class="container"></div>
+    <div class="loading">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <script type="module" src="js/library.js"></script>
+  </body>
+</html>
